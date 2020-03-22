@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.camel.test:camel-plugin:0.1'
+    }
+}
+
+apply plugin: 'cloudbees'
